@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Diff allows me to easily see what has changed betweeen to version of a file.
+So if I had a working copy, made some changes and are left with a buggy version,
+I can always use diff to see what has changed. 
+The bug will most likely be in on of those lines highlighted by Diff.
+
+---
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+If I made a mistake, I can easily go back to a previous working version of a file.
+I cannot accidentally delete or overridefiles anymore
+When working with other people, I don't have to worry about overriding vital parts
+For documentation purposes I can look at how a project has evolved over the time.
+
+---
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+- Only the author (or a human in general) can decide when something is worth being saved as a new version
+- I can add a message to the commit describing what I have done
+
+Cons:
+- With great power comes great responsibility
+- Maybe you forget to commit at all, or commit too frequently
+- Extra effort and overhead 
+
+---
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Mutiple Files:
+ - A commit should be made whenever a logical part of a project has changed. A logical part can be stretched across multiple files
+ - The need to commit every file indepently would be incredibly tedious
+
+ Single Files:
+ - Since e.g. Dropxbox can't know about logical parts that belong together there is not alternative to saving per file
+ - Single files avoid interdependencies between files
+
+ ---
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log:
+- shows me a list of all the commits that have been made in the repo (most recent commits on the top)
+- I can see WHO did the commit (author), WHEN they made the commit (date) and WHAT the changed (commit message)
+- I also see the commit HASH which I can use to refer to that commit (for example in diff)
+
+git diff <file or commit a> <file or commit b>: 
+- diff lets me easily compare the changes of two commits
+- it shows the context of the context of the change (some lines around it)
+- it indicates whether a line was removed or added
+
+---
+
+How might using version control make you more confident to make changes that could break something?
+
+- Everything I do can easily be reverted (using checkout <olderCommit>), so I can be confident making changes
+- Since I document my changes and commit them in small chunks (commits) I am less likely to get lost in the ocean of changes
+- I can use experimental stuff on branches
+--> "Embrace the idea of EXPLORATION" (radical changes)
+
+---
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Versioning all my future projects. Maybe even consider doing it for projects I am working on only myself. Extreme remotely also consider using it for writing my Bachelor thesis... ;-)
+
+
+
+
+
