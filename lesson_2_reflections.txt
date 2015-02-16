@@ -32,5 +32,12 @@ everything is properly tested.
 Also it allows me to have different versions of the same project that I can easily switch to (by checking out that branch). This way, I can, for instance, show my friends an alternative version of the a game. 
 Branching also helps me keep the history clear: Small changes to an experimental feature that I'm not working on won't clutter my history (log). Instead the first time I'll be confronted with that feature is after merging. 
 
+---
 
+How do the diagrams help you visualize the branch structure?
+
+The diagrams visualize the branch structure in a DAG. This help me easily see some kind of timeline 
+for all the commits on every branch. It also helps me when exactly a branch happened and when it was merged again.
+Additionally, because of the fact that it is directed graph, I can easily see the reachability. This also
+helps me understand the DETACHED HEAD STATE (I have checked out an unlabeled commit). If I commit from here and don't create a new branch at this commit, the commit is not reachable and therefore lost. 
 
