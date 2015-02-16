@@ -19,5 +19,18 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 The staging area allows me to decide which of my changed files I want to include in the next commit.
 Let's say, I have changed to files. But the changes don't really belong to the same logical change. So 
-instead of commit the changes to both files in just one commit, I can first stage just the first file,
+instead of committing the changes to both files in just one commit, I can first stage just the first file,
 commit it and afterwards do the same thing for the second file.  
+
+---
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I'm working on experimental features, I don't want to directly commit them to the main project (master branch). 
+Instead I can try everything out on my experimental or feature branch and later merge it into the master after 
+everything is properly tested. 
+Also it allows me to have different versions of the same project that I can easily switch to (by checking out that branch). This way, I can, for instance, show my friends an alternative version of the a game. 
+Branching also helps me keep the history clear: Small changes to an experimental feature that I'm not working on won't clutter my history (log). Instead the first time I'll be confronted with that feature is after merging. 
+
+
+
