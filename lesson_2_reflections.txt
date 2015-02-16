@@ -12,3 +12,12 @@ The staging area holds the files I want to include into my next commit.
 For example if I changed 3 files and I only want to commit the changes to 2 of them, I would add only those two
 and the commit would not include the third file. 
 However, the file is still present in my working directory.  The changes of that third file will not be commited to the repository. 
+
+---
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows me to decide which of my changed files I want to include in the next commit.
+Let's say, I have changed to files. But the changes don't really belong to the same logical change. So 
+instead of commit the changes to both files in just one commit, I can first stage just the first file,
+commit it and afterwards do the same thing for the second file.  
