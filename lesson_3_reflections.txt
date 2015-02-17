@@ -4,3 +4,10 @@ When would you want to use a remote repository rather than keeping all your work
 * When I simply want to share my repo with others. 
 * To have an additional backup in case my hdd/ssd crashes... ;-)
 * To sync my repo across multiple devices I own. 
+
+---
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It basically comes down to similar reasons that why I might want to manually commit instead of having the system automatically "save" for me periodically.
+It gives me the flexibility to decide when I actually need the newest version or when I should be pushing it ("Is it ready to be shared with others?"). If I accidentally make a mistake and commit it, I can commit a fix before sharing it with others. 
