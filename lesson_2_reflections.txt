@@ -41,3 +41,14 @@ for all the commits on every branch. It also helps me when exactly a branch happ
 Additionally, because of the fact that it is directed graph, I can easily see the reachability. This also
 helps me understand the DETACHED HEAD STATE (I have checked out an unlabeled commit). If I commit from here and don't create a new branch at this commit, the commit is not reachable and therefore lost. 
 
+---
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When I merge to branches the result will be a commit that combines the changes made in each branch after branching. 
+I do this using the commmand 'git merge <branchIWantToMergeIntoCurrentCheckedOutBranch>'. The result is a new commit
+and the currectly checked our branch will be moved accordingly to that new commit. 
+The head of the branch that I merged into the currently checked out one, doesn't change. 
+We represent a merge in the graph by combining or joining together two paths to a new node. 
+
+
