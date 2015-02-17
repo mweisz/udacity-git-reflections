@@ -51,4 +51,16 @@ and the currectly checked our branch will be moved accordingly to that new commi
 The head of the branch that I merged into the currently checked out one, doesn't change. 
 We represent a merge in the graph by combining or joining together two paths to a new node. 
 
+---
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+In many cases branches can be merged automatically by Git. This is great because
+in many cases the merging is rather trivial (e.g. when only different lines were
+operated on) and it saves me a lot of time. 
+
+On the other hand, in some cases it is impossible for Git to know how to resolve a merge conflict. In these cases Git confronts me with the lines in questions and I get 
+to make a manual decision. This might seem tedious but first, there is technically 
+not other way (Git just cannot know which is correct) and it gives me the flexibility to decide for myself how to deal with the conflict. 
+
 
