@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+* When I want to work collaboratively with other people.
+* When I simply want to share my repo with others. 
+* To have an additional backup in case my hdd/ssd crashes... ;-)
+* To sync my repo across multiple devices I own. 
