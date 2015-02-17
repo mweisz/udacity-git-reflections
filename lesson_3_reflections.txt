@@ -11,3 +11,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 It basically comes down to similar reasons that why I might want to manually commit instead of having the system automatically "save" for me periodically.
 It gives me the flexibility to decide when I actually need the newest version or when I should be pushing it ("Is it ready to be shared with others?"). If I accidentally make a mistake and commit it, I can commit a fix before sharing it with others. 
+
+---
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks: I find an interesting repo on Github that I'd like to work on, but I don't have direct writing access to it (or don't to change the original one). Instead I fork it into my own Github account and can work on it as it pleases me. The owner of the forked repo is notified that her repo has been forked.
+
+Clones: I can clone a remote repo (for example from Github) into my own local filesystem. Now I can locally edit or use it. If I want to apply my local changes to the remote repo I can simply push to it. Btw, I can also create a clone from a local repo if I feel like it.
+
+Branches: While working inside my repo it might be useful to create a new branch for experimental features or different variations. Later I can merge the branches if I feel like it. 
