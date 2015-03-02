@@ -22,3 +22,5 @@ Clones: I can clone a remote repo (for example from Github) into my own local fi
 
 Branches: While working inside my repo it might be useful to create a new branch for experimental features or different variations. Later I can merge the branches if I feel like it. 
 
+ 
+ 
