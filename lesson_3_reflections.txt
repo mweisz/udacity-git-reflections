@@ -21,3 +21,4 @@ Forks: I find an interesting repo on Github that I'd like to work on, but I don'
 Clones: I can clone a remote repo (for example from Github) into my own local filesystem. Now I can locally edit or use it. If I want to apply my local changes to the remote repo I can simply push to it. Btw, I can also create a clone from a local repo if I feel like it.
 
 Branches: While working inside my repo it might be useful to create a new branch for experimental features or different variations. Later I can merge the branches if I feel like it. 
+
